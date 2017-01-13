@@ -7,9 +7,9 @@ An example client showing how to obtain a token from the RTIaaS authorization se
     cd c:\rtiaas
     git clone https://github.com/rtiaas/http-client-sample
 
-Edit the `src\appsettings.json` file and add the clientId and clientSecret values to the configuration. 
+Edit the `http-client-sample\src\http-client-sample\appsettings.json` file and add the clientId and clientSecret values to the configuration. 
 
-    cd src
+    cd http-client-sample\src\http-client-sample
     dotnet restore
     dotnet run
 
